@@ -1,0 +1,10 @@
+import arcade
+arcade.open_window(1000,1000,"Triangle")
+arcade.set_background_color(arcade.color.WHITE)
+arcade.start_render()
+arcade.draw_circle_filled(500,700,250,arcade.color.YELLOW)
+arcade.draw_circle_filled(400,750,20,arcade.color.BLACK)
+arcade.draw_circle_filled(600,750,20,arcade.color.BLACK)
+arcade.draw_arc_outline(500,650,240,250,arcade.color.BLACK,190,350,10)
+arcade.finish_render()
+arcade.run()
